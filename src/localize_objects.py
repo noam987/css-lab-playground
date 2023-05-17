@@ -11,3 +11,5 @@ def localize_objects(path):
         print('Normalized bounding polygon vertices: ')
         for vertex in object_.bounding_poly.normalized_vertices:
             print(f' - ({vertex.x}, {vertex.y})')
+    #Notes from this Naive implementation: 
+    # Cannot detect hats on people in the few images I tried
